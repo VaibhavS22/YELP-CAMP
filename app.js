@@ -17,7 +17,10 @@ var commentRoutes       = require("./routes/comments"),
     indexRoutes         = require("./routes/index");
 
 //Database Connect or make new Database :- yelp_camp
-mongoose.connect("mongodb://localhost/yelp_camp_Final");
+//mongoose.connect("mongodb://localhost/yelp_camp_Final");
+mongoose.connect("mongodb://vaibhavs2204:password@ds143738.mlab.com:43738/yelpcampvai");
+//mongodb://vaibhavs22:@Vaijbl22@ds143738.mlab.com:43738/yelpcampvai
+
 //To use body parser i.e, to take input from forms
 app.use(bodyParser.urlencoded({extended:true}));
 // To explicitly tell that all our files will be of "ejs" format 
