@@ -1,9 +1,66 @@
 <% include partials/header %>
-<h1>Landing Page</h1>
+<!--<h1>Landing Page</h1>-->
 
-<p>Welcome to Yelp Camp</p>
+<!--<p>Welcome to Yelp Camp</p>-->
 
-<a href="/campgrounds"> View All Campgrounds</a>
+<style>
+    body{
+    background: url(https://images.unsplash.com/photo-1506535995048-638aa1b62b77?ixlib=rb-0.3.5&s=e0421b3f8e3bc5054feeffb2eb317fe3&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato";
+    color: white;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+
+
+.content{
+    color:white;
+	padding-top: 25%;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+</style>
+<div class="landingPage">
+    <div class="container">
+ 	<div class="row">
+ 		<div class="col-lg-12">
+ 			<div class="content">
+ 				<h1>Welcome to Yelp Camp</h1>
+ 				<h3>The Great Place For Campgrounds</h3>
+ 				<hr>
+ 				<a href="/campgrounds">
+ 				    <button class="btn btn-default btn-lg"> View All!</button>
+ 				    </a>
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+</div>
+
+
 
 <% include partials/footer %>
 
