@@ -18,9 +18,8 @@ var commentRoutes       = require("./routes/comments"),
 
 //Database Connect or make new Database :- yelp_camp
 //mongoose.connect("mongodb://localhost/yelp_camp_Final");
-// mongoose.connect("mongodb://gitpup:@GitScr1@ds235251.mlab.com:35251/githubpuptest")
-// mongoose.conne("mongodb://vaibhavs22:@Vaijbl22@ds143738.mlab.com:43738/yelpcampvai")
-mongoose.connect("mongodb://vaibhavs2204:Vaijbl22@ds147118.mlab.com:47118/yelpcampvai");
+let url = process.env.DATABASEURL || "mongodb://localhost/yelp_camp_Final"
+mongoose.connect(url, {useMongoClient: true});
 
 
 //To use body parser i.e, to take input from forms
