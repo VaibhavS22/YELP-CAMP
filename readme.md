@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://yelpcamp--demo.herokuapp.com/)
+To see the app in action, go to [https://lit-garden-65779.herokuapp.com/](https://lit-garden-65779.herokuapp.com/)
 
 ## Features
 
@@ -50,7 +50,7 @@ To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://
 ### Clone or download this repository
 
 ```sh
-git clone https://github.com/lucasweng/yelp-camp.git
+git clone https://github.com/VaibhavS22/YELP-CAMP.git
 ```
 
 ### Install dependencies
