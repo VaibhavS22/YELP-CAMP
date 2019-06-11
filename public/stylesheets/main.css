@@ -1,0 +1,19 @@
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail{
+    padding: 0;
+} 
+
+.delete-form{
+    display: inline;
+}
+
+@media (max-width: 991px){
+    .list-group{
+    display: none !important;
+    }
+}
+
+
